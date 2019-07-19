@@ -1,0 +1,37 @@
+.header {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+#main {
+  width: 1000px;
+  height: 300px;
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 50%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text {
+  width: 1000px;
+  height: 300px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.cpp-image {
+  display: block;
+  margin: 0 auto;
+}
